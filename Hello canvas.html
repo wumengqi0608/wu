@@ -1,0 +1,50 @@
+<canvas id="myCanvas" width="400" height="300"/>
+
+
+<script type="text/javascript"> 　　
+
+
+     var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+        
+    context.strokeStyle = "#ff0000";          
+ 
+    context.moveTo(0,0);
+   context.lineTo(200,100);
+    context.stroke();            
+ 
+
+     var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    
+              
+              context.fillRect(20, 20, 60, 60);
+               
+              context.strokeRect(100, 20, 60, 60);
+            
+          context.fillStyle = "#0000ff";
+  context.strokeStyle = "#ff0000";
+             
+             context.fillRect(20, 100, 60, 60);    
+             
+             context.strokeRect(100, 100, 60, 60);  
+             
+             context.lineWidth = 10;        
+             context.strokeRect(180, 100, 60, 60);    
+             
+            
+             context.fillStyle = "#00ff00";
+             
+             context.fillRect(20, 180, 60, 60);
+             context.clearRect(30, 190, 20, 20);        
+             
+             
+             context.fillStyle = "rgba(0,255,0,0.2)";
+             context.strokeStyle = "rgba(0,255,0,0.2)";
+             
+             context.fillRect(20, 260, 60, 60);       
+             
+             context.lineWidth = 10;      
+             context.strokeRect(100, 260, 60, 60);   
+         
+        </script>
