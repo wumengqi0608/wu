@@ -20,4 +20,4 @@ HELLOCANVAS:https://wumengqi0608.github.io/wu/Hello_canvas.html
 
 多边形拓扑生成：https://wumengqi0608.github.io/wu/多边形拓扑生成.html
 
-地图符号：
+地图符号：https://wumengqi0608.github.io/wu/symbol.html
